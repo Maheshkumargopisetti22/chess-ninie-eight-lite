@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: .5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#board{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    width: 640px;
+
+}
+.box{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hideImg{
+    display: none;
+}
+.imgPiece {
+    width: 50px;
+    height: 50px;
+}
+.possibleMove{
+    background-color: #ecf0f1 !important;
+}
+.Cantkill{
+    background-color: #c0392b !important;
+}
+.Cankill{
+    background-color: #27ae60 !important;
+}
